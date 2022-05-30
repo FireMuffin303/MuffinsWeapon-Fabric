@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "muffinsweapons",
   "version": "${version}",
 
-  "name": "Example Mod",
+  "name": "Muffin's Weapons",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
-    "Me!"
+    "FireMuffin303"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.firemuffin303.muffinsweapons.MuffinsWeapons"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "muffinsweapons.mixins.json"
   ],
 
   "depends": {
