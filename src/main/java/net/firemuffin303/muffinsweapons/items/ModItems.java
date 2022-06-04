@@ -18,7 +18,7 @@ public class ModItems {
     public static final Item INK_AXE = new InkAxeItem(ToolMaterials.DIAMOND,6,-3.1F,new FabricItemSettings().group(MuffinsWeapons.TAB));
     public static final Item NETHERITE_INK_AXE = new InkAxeItem(ToolMaterials.NETHERITE,5,-3.0F,new FabricItemSettings().group(MuffinsWeapons.TAB));
 
-    public static final Item DEVILKNIFE = new DevilKnifeItem(new FabricItemSettings().group(MuffinsWeapons.TAB));
+    public static final Item DEVILKNIFE = new DevilKnifeItem(9,-3.4F,new FabricItemSettings().group(MuffinsWeapons.TAB));
 
     //Spell Books
     public static final Item SPELL_BOOK = new SpellBookItem(new FabricItemSettings().group(MuffinsWeapons.TAB), SpellTags.REGULAR_SPELLS);
